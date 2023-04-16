@@ -22,17 +22,19 @@ p, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #f9faf8;
+
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #f9faf8;
 }
 
 .logo {
     font-size: 24px;
-    color: #f9faf8;
 }
 
 a {
@@ -49,17 +51,18 @@ a {
 .content {
     display: flex;
     flex-direction: column;
+    gap: 64px;
 }
 
 .intro {
     display: flex;
-    /* background-color: blue; */
     gap: 64px;
+    color: #f9faf8;
+    padding-top: 64px;
 }
 
 .main {
     font-size: 48px;
-    color: #f9faf8;
     margin: 0;
     padding: 0;
 }
@@ -89,5 +92,53 @@ button {
     background-color: #3882f6;
     border: none;
     border-radius: 8px;
+    color: #f9faf8;
     padding: 10px 20px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #1f2937;
+    align-items: center;
+    padding: 64px;
+    gap: 64px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: #3882f6 solid 4px;
+    border-radius: 16px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 64px;
+
+}
+
+.quote > p {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
 }
