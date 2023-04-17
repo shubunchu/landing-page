@@ -5,9 +5,7 @@
 body {
     height: 100vh;
     margin: 0;
-    padding-left: 20%;
-    padding-right: 20%;
-    background-color: #1f2937;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,8 +20,10 @@ p, a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1f2937;
     color: #f9faf8;
-
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .footer {
@@ -31,10 +31,13 @@ p, a {
     justify-content: center;
     align-items: center;
     color: #f9faf8;
+    background-color: #1f2937;
+    padding: 32px;
 }
 
 .logo {
     font-size: 24px;
+    font-weight: bold;
 }
 
 a {
@@ -58,7 +61,10 @@ a {
     display: flex;
     gap: 64px;
     color: #f9faf8;
-    padding-top: 64px;
+    padding: 64px;
+    background-color: #1f2937;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .main {
@@ -99,11 +105,11 @@ button {
 .info {
     display: flex;
     flex-direction: column;
-    background-color: white;
     color: #1f2937;
     align-items: center;
-    padding: 64px;
     gap: 64px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .container {
@@ -136,6 +142,8 @@ img {
     flex-direction: column;
     background-color: #e5e7eb;
     padding: 64px;
+    padding-left: 20%;
+    padding-right: 20%;
 
 }
 
@@ -149,4 +157,47 @@ img {
 
 .quote > h2 {
     align-self: flex-end;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 64px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.signup > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    width: 100%;
+    padding: 32px 64px;
+}
+
+.signup div {
+    display: flex;
+}
+
+.signup h2 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.signup p {
+    margin: 0;
+    padding: 0;
+}
+
+.signup button {
+    border: white solid 2px;
+}
+
+.invite {
+    display: flex;
+    flex-direction: column;
 }
